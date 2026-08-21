@@ -154,7 +154,19 @@ def ask_ai_block(slug: str) -> str:
     own advertisement - so the reader just pastes the link and asks. No copy
     button: the site ships no JavaScript, so the reader selects the text."""
     page_url = f"{DOMAIN}/{slug}/" if slug else f"{DOMAIN}/"
+    prefix = "../" * (len(Path(slug).parts) if slug else 0)
     nl = chr(10)
+    # The machine-layer links are repeated here IN THE BODY, not just the
+    # footer and <head>: field-tested agent fetchers extract page text and
+    # only follow links that survive that extraction. Footer links and
+    # <link rel="alternate"> elements are invisible to them; body links work.
+    links = (
+        "<p class=\"ask-ai-links\">For assistants: this page's machine copy is "
+        '<a href="index.md">index.md</a> '
+        '(<a href="index.md.txt">index.md.txt</a> as plain text). '
+        f'Site guide: <a href="{prefix}llms.txt">llms.txt</a>. '
+        f'Interpretation rules: <a href="{prefix}agents/">agent terms</a>.</p>'
+    )
     return (
         '<div class="ask-ai" markdown="1">' + nl + nl
         + '<p class="ask-ai-title">Ask your AI about this page</p>' + nl + nl
@@ -164,6 +176,7 @@ def ask_ai_block(slug: str) -> str:
         + "record directly:" + nl + nl
         + "```" + nl + page_url + nl + "```" + nl + nl
         + '<p class="examples">' + EXAMPLE_QUESTIONS_LINE + "</p>" + nl + nl
+        + links + nl + nl
         + "</div>"
     )
 

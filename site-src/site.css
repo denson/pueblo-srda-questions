@@ -141,6 +141,8 @@ pre code{font-size:15px;line-height:1.5}
 .ask-ai p{color:var(--text-soft);margin:0 0 12px}
 .ask-ai pre{margin:0 0 12px;background:var(--surface-card)}
 .ask-ai .examples{font-size:var(--text-sm);margin:0}
+.ask-ai .ask-ai-links{font:400 var(--text-sm)/1.7 var(--font-mono);color:var(--machine-text);margin:12px 0 0;border-top:1px dashed var(--border);padding-top:10px}
+.ask-ai .ask-ai-links a{color:var(--machine-text)}
 
 /* Program cards */
 .program-cards{display:grid;gap:var(--space-4);grid-template-columns:repeat(auto-fill,minmax(320px,1fr));margin:var(--space-5) 0}

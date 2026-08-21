@@ -223,6 +223,11 @@ def main() -> None:
             fail(errors, f"{rel}: footer SRDA number missing")
         if "Ask your AI about this page" not in visible:
             fail(errors, f"{rel}: missing the ask-your-AI box")
+        # Field-tested: agent fetchers only follow links that survive text
+        # extraction, and footer/<head> links do not. The machine layer must
+        # be linked in the page BODY on every page.
+        if 'class="ask-ai-links"' not in raw or 'href="index.md"' not in raw:
+            fail(errors, f"{rel}: missing body-visible machine-layer links (ask-ai-links)")
 
         mirror = path.with_name("index.md")
         if not mirror.exists():
