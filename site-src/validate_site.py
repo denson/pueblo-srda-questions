@@ -19,7 +19,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PUBLIC = ROOT / "public"
 CONTENT = ROOT / "site-src" / "content"
-SITE_NAME = "Pueblo Senior Services, Explained"
+SITE_NAME = "Pueblo SRDA Questions"
 
 
 class PageParser(HTMLParser):

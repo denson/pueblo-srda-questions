@@ -1,4 +1,4 @@
-# pueblo-srda-questions.stoagen.com — Pueblo Senior Services, Explained
+# pueblo-srda-questions.stoagen.com — Pueblo SRDA Questions
 # All crawlers are welcome — AI training, search indexing, and user-initiated
 # agent fetches alike. Anticipated agent traffic includes Claude-User,
 # ChatGPT-User, Codex-CLI, ClaudeBot, GPTBot, OAI-SearchBot, Claude-SearchBot,

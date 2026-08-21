@@ -1,6 +1,6 @@
 # Site source — rules that hold regardless of the task
 
-This directory builds `pueblo-srda-questions.stoagen.com` (Pueblo Senior Services, Explained).
+This directory builds `pueblo-srda-questions.stoagen.com` (Pueblo SRDA Questions).
 `public/` is generated output; never edit it. Edit `site-src/` and run the
 build.
 

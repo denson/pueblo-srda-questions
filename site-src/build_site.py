@@ -30,7 +30,7 @@ CONTENT = SOURCE / "content"
 AGENT_MARKER = "<!-- agent-only -->"
 PUBLIC = ROOT / "public"
 DOMAIN = "https://pueblo-srda-questions.stoagen.com"
-SITE_NAME = "Pueblo Senior Services, Explained"
+SITE_NAME = "Pueblo SRDA Questions"
 
 NAV = [
     ("Home", ""),
@@ -272,7 +272,7 @@ def render_page(page: Page) -> str:
     <div class="header-inner">
       <a class="brand" href="{home}" aria-label="{html.escape(SITE_NAME)} home">
         <span class="brand-mark" aria-hidden="true">{MARK_SVG}</span>
-        <span class="brand-name">Pueblo Senior Services, <em>Explained</em></span>
+        <span class="brand-name">Pueblo SRDA <em>Questions</em></span>
       </a>
       <nav class="site-nav" aria-label="Main">{nav_html}</nav>
     </div>

@@ -1,9 +1,9 @@
 ---
 slug:
-title: Every program SRDA runs, written down carefully.
-description: SRDA is Pueblo's senior services agency. This site explains each of its programs in plain language, who each one is for, what it costs, and exactly who to call. Where the public record has a gap, we say so.
+title: Every program SRDA runs, and the questions we still have.
+description: SRDA is Pueblo's senior services agency. This site lays out each of its programs in plain language, who each one is for, what it costs, and exactly who to call, and it asks in public the questions the record leaves open.
 ---
-# Every program SRDA runs, written down carefully.
+# Every program SRDA runs, and the questions we still have.
 
 <div class="phone-call">
 <p class="phone-call-label">Not sure where to start?</p>

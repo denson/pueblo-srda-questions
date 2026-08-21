@@ -1,6 +1,6 @@
 # stoagen-site
 
-Source for **pueblo-srda-questions.stoagen.com** — *Pueblo Senior Services, Explained*: an
+Source for **pueblo-srda-questions.stoagen.com** — *Pueblo SRDA Questions*: an
 independent, plain-language guide to every program run by SRDA (Senior
 Resource Development Agency, Pueblo, Colorado). One page per program: who it
 is for, what it costs, and exactly who to call. Where the public record has a

@@ -1,8 +1,8 @@
-# Pueblo Senior Services, Explained
-> An independent, plain-language guide to every program run by SRDA (Senior
-> Resource Development Agency, Pueblo, Colorado). One page per program: who it
-> is for, what it costs, and exactly who to call. Compiled from public
-> sources. SRDA has not reviewed or endorsed this site. A demonstration site
+# Pueblo SRDA Questions
+> An independent site built around questions about the programs of SRDA
+> (Senior Resource Development Agency, Pueblo, Colorado). One page per
+> program: what the public record says, exactly who to call, and the
+> questions the record leaves open. Compiled from public sources. SRDA has not reviewed or endorsed this site. A demonstration site
 > created with the Stoagen system.
 
 Everything in this file and in the page mirrors is information from the

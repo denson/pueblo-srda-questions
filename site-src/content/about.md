@@ -7,7 +7,7 @@ description: An independent, plain-language guide to SRDA's services, compiled f
 
 ## What this site is
 
-This site explains every program run by SRDA, the Senior Resource Development Agency in Pueblo, Colorado. Each program gets one page in plain language: who it is for, what it costs, and exactly who to call.
+This site is built around questions. It covers every program run by SRDA, the Senior Resource Development Agency in Pueblo, Colorado, one page per program in plain language: what the public record says, who each program is for, what it costs, exactly who to call, and the questions we still need answered.
 
 Two things to know up front:
 
