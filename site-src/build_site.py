@@ -451,6 +451,10 @@ def main() -> None:
     copy_assets()
     shutil.copy2(SOURCE / "robots.txt", PUBLIC / "robots.txt")
     shutil.copy2(SOURCE / "llms.txt", PUBLIC / "llms.txt")
+    # Search-engine ownership verification files (Google Search Console, Bing).
+    # Served verbatim at the root; keep them forever - verification is re-checked.
+    for token in SOURCE.glob("google*.html"):
+        shutil.copy2(token, PUBLIC / token.name)
     (PUBLIC / ".nojekyll").write_text("", encoding="utf-8", newline="\n")
     (PUBLIC / "CNAME").write_text("stoagen.com\n", encoding="utf-8", newline="\n")
     write_sitemap(pages)
