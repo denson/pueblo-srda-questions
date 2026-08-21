@@ -374,7 +374,7 @@ def write_page(page: Page) -> None:
 
 
 def write_sitemap(pages: list[Page]) -> None:
-    urls: list[str] = []
+    urls: list[str] = [DOMAIN + "/start.md"]
     for page in pages:
         urls.append(page.canonical)
         urls.append(page.canonical + "index.md")
@@ -463,6 +463,11 @@ def main() -> None:
     # Served verbatim at the root; keep them forever - verification is re-checked.
     for token in SOURCE.glob("google*.html"):
         shutil.copy2(token, PUBLIC / token.name)
+    # The assistant start page: the one URL a person hands to any chatbot.
+    # Static-authored, served as .md plus the .txt twin.
+    start = (SOURCE / "start.md").read_text(encoding="utf-8")
+    (PUBLIC / "start.md").write_text(start, encoding="utf-8", newline="\n")
+    (PUBLIC / "start.md.txt").write_text(start, encoding="utf-8", newline="\n")
     (PUBLIC / ".nojekyll").write_text("", encoding="utf-8", newline="\n")
     (PUBLIC / "CNAME").write_text("stoagen.com\n", encoding="utf-8", newline="\n")
     write_sitemap(pages)

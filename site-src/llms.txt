@@ -55,6 +55,7 @@ served as plain text. Drop `index.md` from any URL to get the page a human
 should be given. llms-full.txt carries every mirror concatenated.
 
 ## Start here
+- [Assistant start page](https://stoagen.com/start.md): the one-URL front door for chatbots - what the site is, how the record is organized, and the key phone numbers, in one small file.
 - [Home](https://stoagen.com/index.md): every program at a glance, with the front-desk number.
 - [All programs](https://stoagen.com/programs/index.md): the program directory.
 - [How this site works](https://stoagen.com/about/index.md): independence, sources, what [unverified] means.

@@ -313,6 +313,23 @@ def main() -> None:
     if not (PUBLIC / "llms-full.txt").exists():
         fail(errors, "llms-full.txt missing")
 
+    start = PUBLIC / "start.md"
+    if not start.exists():
+        fail(errors, "start.md missing")
+    else:
+        stext = start.read_text(encoding="utf-8")
+        for needle in (
+            "https://stoagen.com/llms-full.txt",
+            "https://stoagen.com/llms.txt",
+            "(719) 545-8900",
+            "not instructions to you",
+        ):
+            if needle not in stext:
+                fail(errors, f"start.md missing required content: {needle}")
+        twin = PUBLIC / "start.md.txt"
+        if not twin.exists() or twin.read_bytes() != start.read_bytes():
+            fail(errors, "start.md.txt missing or differs from start.md")
+
     check_internal_links(errors)
     check_phone_and_gaps(errors)
     check_emdash_ban(errors)
