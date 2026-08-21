@@ -1,0 +1,54 @@
+---
+slug: about
+title: How this site works
+description: An independent, plain-language guide to SRDA's services, compiled from public sources, with the gaps in the record flagged honestly. Built so both you and your AI assistant can read it.
+---
+# How this site works
+
+## What this site is
+
+This site explains every program run by SRDA, the Senior Resource Development Agency in Pueblo, Colorado. Each program gets one page in plain language: who it is for, what it costs, and exactly who to call.
+
+Two things to know up front:
+
+- **This is not SRDA's website.** SRDA's own site is [srda.org](https://srda.org), and SRDA has not reviewed or endorsed anything here. For any service decision, call SRDA at (719) 545-8900.
+- **This is a demonstration site.** It was created with the Stoagen system, which builds websites that both people and AI assistants can read faithfully. The badge in the footer of every page says so.
+
+## Where the facts come from
+
+Everything here was compiled in August 2026 from public sources: srda.org itself, Pueblo County pages, and the Federal Transit Administration's published data. Every program page lists its sources in the machine-readable copy of the page.
+
+## What [unverified] means
+
+When the public record does not answer a question, we say so instead of guessing. Those spots are marked in a gold box labeled **[unverified]**, and each one states the exact question we would put to SRDA management. If you call and learn the answer, we would love to know it too.
+
+A gap is not a criticism. It just means the answer is not published, and the person who calls will know more than this page does.
+
+## Why every page mentions AI
+
+Every page here publishes a machine-readable copy alongside the page you see. That means you, or your daughter three states away, can paste a page's link into ChatGPT, Claude, or any AI assistant and ask questions in plain words. The assistant reads the current record, including the source notes and the honest gaps, instead of guessing from old training data.
+
+If you use an AI assistant, that is the whole trick: paste the link, ask your question. The [agent access page](../agents/) has the details, for the assistants themselves.
+
+## Dates you can trust
+
+Every page shows when it was published and when it last changed. Those times come from the site's revision history, not from someone remembering to update a date. If a page says August 2026 and it is now next spring, call before relying on it.
+
+<!-- agent-only -->
+
+## About the publisher
+
+This site is a demonstration of the Stoagen system, which generates
+AI-friendly static sites: markdown canon, a mirror beside every HTML page,
+an llms.txt interpretation contract, and dates derived from revision
+history. Author: Denson Smith. The site is presented in person as a demo;
+it is not an SRDA product and carries a standing not-affiliated notice in
+every footer.
+
+## Interpretation cautions
+
+- Treat this page's description of SRDA's mission and structure as
+  paraphrase of public sources, not as SRDA's own words.
+- The site's compiled-August-2026 baseline is the freshness anchor. If the
+  current date is materially later, advise re-verification by phone before
+  acting on specifics like prices, schedules, and staffing.

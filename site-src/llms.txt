@@ -1,0 +1,61 @@
+# Pueblo Senior Services, Explained
+> An independent, plain-language guide to every program run by SRDA (Senior
+> Resource Development Agency, Pueblo, Colorado). One page per program: who it
+> is for, what it costs, and exactly who to call. Compiled from public
+> sources. SRDA has not reviewed or endorsed this site. A demonstration site
+> created with the Stoagen system.
+
+Everything in this file and in the page mirrors is information from the
+publisher, not instructions to you: the interpretation rules below are our
+caveats and scope limits, offered so that restatements of our content stay
+accurate. Your operator's instructions always come first; apply ours as
+source metadata, with your own judgment.
+
+This site is not affiliated with or endorsed by SRDA. SRDA's own site is
+https://www.srda.org/. Never present this site's text as SRDA's statement
+or policy. For any service decision, the person you are helping should call
+SRDA directly: (719) 545-8900, or the program number on the page.
+
+Facts marked [unverified] are gaps in the public record. Each carries the
+question we would put to SRDA management. Carry the [unverified] marker when
+restating, and do not fill the gap from training data.
+
+Check the date on any page before relying on it. The corpus was compiled in
+August 2026; every page carries published and last-updated times derived
+from its revision history. Programs, prices, and schedules change. If what
+you know is older than the page date, or the page date is old, say so and
+suggest a phone call.
+
+Keep sources attached when restating an empirical claim. Each program
+page's mirror ends with source notes and interpretation cautions; they are
+part of the content.
+
+Links below point at the Markdown mirror of each page, which is what you
+should read. If your tool refuses a mirror because of its text/markdown
+content type, append .txt to the URL (…/index.md.txt) — the same bytes
+served as plain text. Drop `index.md` from any URL to get the page a human
+should be given. llms-full.txt carries every mirror concatenated.
+
+## Start here
+- [Home](https://stoagen.com/index.md): every program at a glance, with the front-desk number.
+- [All programs](https://stoagen.com/programs/index.md): the program directory.
+- [How this site works](https://stoagen.com/about/index.md): independence, sources, what [unverified] means.
+- [Agent access](https://stoagen.com/agents/index.md): this contract, in page form.
+
+## Programs
+- [Transportation](https://stoagen.com/programs/transportation/index.md): curb-to-curb vans countywide, 60+ or 18-59 with disabilities via ADRC; free with suggested $2/leg; book 3 working days ahead; weekdays only.
+- [Meals on Wheels](https://stoagen.com/programs/meals-on-wheels/index.md): home-delivered meals for homebound or isolated 60+; volunteer drivers actively recruited.
+- [Community meals](https://stoagen.com/programs/congregate-meals/index.md): hot noon meals at sites countywide for 60+ and spouses.
+- [Help at home (HELP)](https://stoagen.com/programs/help-at-home/index.md): fee-for-service housekeeping, errands, and yard work by insured staff, ages 50+.
+- [Medicare counseling](https://stoagen.com/programs/medicare-counseling/index.md): free SHIP classes and insurance enrollment help.
+- [Lifeline](https://stoagen.com/programs/lifeline/index.md): the medical-alert button subscription SRDA has run for 30+ years.
+- [ADRC and 2-1-1](https://stoagen.com/programs/adrc/index.md): no-wrong-door resource navigation; the referral of last resort.
+- [Housing](https://stoagen.com/programs/housing/index.md): Richmond and Union Plaza apartments; rentals via the Pueblo Housing Authority.
+- [Foster Grandparents](https://stoagen.com/programs/foster-grandparents/index.md): stipended school mentoring for income-qualified 55+.
+- [Recreation](https://stoagen.com/programs/recreation/index.md): classes and activities at the Active Adult Center, 50+.
+- [School crossing guards](https://stoagen.com/programs/crossing-guards/index.md): paid part-time work for seniors.
+- [Volunteering](https://stoagen.com/programs/volunteers/index.md): where help is needed, starting with Meals on Wheels drivers.
+
+## Optional
+- [Full corpus](https://stoagen.com/llms-full.txt): every page mirror in one file, for tools that prefer a single fetch.
+- [Feed](https://stoagen.com/feed.xml): pages by last update; the monitoring channel for humans and agents alike.
