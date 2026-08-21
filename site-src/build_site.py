@@ -332,13 +332,13 @@ def mirror_body(page: Page) -> str:
 
 def write_page(page: Page) -> None:
     page.output_dir.mkdir(parents=True, exist_ok=True)
-    (page.output_dir / "index.html").write_text(render_page(page), encoding="utf-8")
+    (page.output_dir / "index.html").write_text(render_page(page), encoding="utf-8", newline="\n")
     body = mirror_body(page)
-    (page.output_dir / "index.md").write_text(body, encoding="utf-8")
+    (page.output_dir / "index.md").write_text(body, encoding="utf-8", newline="\n")
     # Plain-text twin of the mirror: some agent runtimes reject the
     # text/markdown content type outright. GitHub Pages types by final
     # extension, so the same bytes at index.md.txt arrive as text/plain.
-    (page.output_dir / "index.md.txt").write_text(body, encoding="utf-8")
+    (page.output_dir / "index.md.txt").write_text(body, encoding="utf-8", newline="\n")
 
 
 def write_sitemap(pages: list[Page]) -> None:
@@ -352,7 +352,7 @@ def write_sitemap(pages: list[Page]) -> None:
 {entries}
 </urlset>
 '''
-    (PUBLIC / "sitemap.xml").write_text(sitemap, encoding="utf-8")
+    (PUBLIC / "sitemap.xml").write_text(sitemap, encoding="utf-8", newline="\n")
 
 
 def rfc822(stamp: str) -> str:
@@ -387,7 +387,7 @@ def write_feed(pages: list[Page]) -> None:
         + chr(10).join(items) + chr(10)
         + "</channel></rss>" + chr(10)
     )
-    (PUBLIC / "feed.xml").write_text(feed, encoding="utf-8")
+    (PUBLIC / "feed.xml").write_text(feed, encoding="utf-8", newline="\n")
 
 
 def write_llms_full(pages: list[Page]) -> None:
@@ -404,7 +404,7 @@ mirror changes. The published revision date is {date.today().isoformat()}.
     sections = []
     for page in pages:
         sections.append(f"<!-- Canonical: {page.canonical} -->\n\n{page.markdown_body.strip()}\n")
-    (PUBLIC / "llms-full.txt").write_text(header + "\n---\n\n".join(sections), encoding="utf-8")
+    (PUBLIC / "llms-full.txt").write_text(header + "\n---\n\n".join(sections), encoding="utf-8", newline="\n")
 
 
 def copy_assets() -> None:
@@ -427,8 +427,8 @@ def main() -> None:
     copy_assets()
     shutil.copy2(SOURCE / "robots.txt", PUBLIC / "robots.txt")
     shutil.copy2(SOURCE / "llms.txt", PUBLIC / "llms.txt")
-    (PUBLIC / ".nojekyll").write_text("", encoding="utf-8")
-    (PUBLIC / "CNAME").write_text("stoagen.com\n", encoding="utf-8")
+    (PUBLIC / ".nojekyll").write_text("", encoding="utf-8", newline="\n")
+    (PUBLIC / "CNAME").write_text("stoagen.com\n", encoding="utf-8", newline="\n")
     write_sitemap(pages)
     write_feed(pages)
     write_llms_full(pages)
