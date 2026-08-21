@@ -210,7 +210,7 @@ def main() -> None:
         # stay readable with JavaScript off.
         if parser.script_count != 1 or not parser.copy_script:
             fail(errors, f"{rel}: expected exactly the deferred copy.js script, found {parser.script_count}")
-        if 'class="copy-box"' not in raw or "My question: describe the site" not in raw:
+        if 'class="copy-box"' not in raw or "The whole site as one text file" not in raw:
             fail(errors, f"{rel}: missing the copy-for-your-AI box")
         if "agent-only" in raw or "Appendix for agents" in raw:
             fail(errors, f"{rel}: agent-only content leaked into the page")
