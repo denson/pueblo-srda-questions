@@ -1,6 +1,26 @@
-User-agent: *
-Allow: /
+# stoagen.com — Pueblo Senior Services, Explained
+# All crawlers are welcome — AI training, search indexing, and user-initiated
+# agent fetches alike. Anticipated agent traffic includes Claude-User,
+# ChatGPT-User, Codex-CLI, ClaudeBot, GPTBot, OAI-SearchBot, Claude-SearchBot,
+# PerplexityBot, and Google-Extended.
+#
+# Content signals declare what may be done with this content after it has been
+# fetched, which an Allow rule on its own cannot express:
+#
+#   search    build a search index and show links and snippets
+#   ai-input  use as live input to a model, including retrieval and grounding
+#   ai-train  train or fine-tune a model
+#
+# All three are yes, deliberately. This site exists to be read by assistants
+# on a person's behalf: a model that has read it can route someone to the
+# right SRDA program and phone number; one that has not will answer about
+# Pueblo senior services regardless, with worse information.
+#
+# Machine-readable form below. Where a signal is set to yes you may collect
+# the content for that use. No signal here is set to no.
 
+User-agent: *
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
+Allow: /
 
 Sitemap: https://stoagen.com/sitemap.xml
