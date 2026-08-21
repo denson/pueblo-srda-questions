@@ -39,7 +39,7 @@ This site is an independent guide, not SRDA's own website. We compiled it from p
 
 ## Site orientation for agents
 
-This is the home page of stoagen.com, an independent explainer for the
+This is the home page of pueblo-srda-questions.stoagen.com, an independent explainer for the
 services of SRDA (Senior Resource Development Agency, Pueblo, Inc.), a
 nonprofit umbrella agency for seniors and disabled adults in Pueblo County,
 Colorado. The organization's own site is https://www.srda.org/.

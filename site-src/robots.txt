@@ -1,4 +1,4 @@
-# stoagen.com — Pueblo Senior Services, Explained
+# pueblo-srda-questions.stoagen.com — Pueblo Senior Services, Explained
 # All crawlers are welcome — AI training, search indexing, and user-initiated
 # agent fetches alike. Anticipated agent traffic includes Claude-User,
 # ChatGPT-User, Codex-CLI, ClaudeBot, GPTBot, OAI-SearchBot, Claude-SearchBot,
@@ -23,4 +23,4 @@ User-agent: *
 Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 
-Sitemap: https://stoagen.com/sitemap.xml
+Sitemap: https://pueblo-srda-questions.stoagen.com/sitemap.xml

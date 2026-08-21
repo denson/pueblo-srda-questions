@@ -228,13 +228,13 @@ def main() -> None:
         # resolved against the page URL. The machine layer must be linked in
         # the page BODY, as ABSOLUTE URLs, on every page.
         slug_dir = path.relative_to(PUBLIC).parent.as_posix()
-        page_url = "https://stoagen.com/" + (slug_dir + "/" if slug_dir != "." else "")
+        page_url = "https://pueblo-srda-questions.stoagen.com/" + (slug_dir + "/" if slug_dir != "." else "")
         if (
             'class="ask-ai-links"' not in raw
             or f'href="{page_url}index.md"' not in raw
-            or 'href="https://stoagen.com/llms.txt"' not in raw
-            or 'href="https://stoagen.com/llms-full.txt"' not in raw
-            or 'href="https://stoagen.com/agents/"' not in raw
+            or 'href="https://pueblo-srda-questions.stoagen.com/llms.txt"' not in raw
+            or 'href="https://pueblo-srda-questions.stoagen.com/llms-full.txt"' not in raw
+            or 'href="https://pueblo-srda-questions.stoagen.com/agents/"' not in raw
         ):
             fail(errors, f"{rel}: missing absolute body-visible machine-layer links (ask-ai-links)")
         # Descriptive voice only: no imperative agent-directed phrasing in the
@@ -278,7 +278,7 @@ def main() -> None:
         fail(errors, "robots.txt is missing the all-yes Content-Signal line")
     if not (PUBLIC / ".nojekyll").exists():
         fail(errors, ".nojekyll missing")
-    if (PUBLIC / "CNAME").read_text(encoding="utf-8").strip() != "stoagen.com":
+    if (PUBLIC / "CNAME").read_text(encoding="utf-8").strip() != "pueblo-srda-questions.stoagen.com":
         fail(errors, "CNAME missing or wrong")
 
     llms = (PUBLIC / "llms.txt").read_text(encoding="utf-8")
@@ -300,7 +300,7 @@ def main() -> None:
     sitemap = (PUBLIC / "sitemap.xml").read_text(encoding="utf-8")
     for path in pages:
         relative = path.relative_to(PUBLIC).as_posix().removesuffix("index.html")
-        expected_html = f"https://stoagen.com/{relative}"
+        expected_html = f"https://pueblo-srda-questions.stoagen.com/{relative}"
         expected_md = expected_html + "index.md"
         if expected_html not in sitemap or expected_md not in sitemap:
             fail(errors, f"Sitemap missing page or mirror: /{relative}")
@@ -319,8 +319,8 @@ def main() -> None:
     else:
         stext = start.read_text(encoding="utf-8")
         for needle in (
-            "https://stoagen.com/llms-full.txt",
-            "https://stoagen.com/llms.txt",
+            "https://pueblo-srda-questions.stoagen.com/llms-full.txt",
+            "https://pueblo-srda-questions.stoagen.com/llms.txt",
             "(719) 545-8900",
             "not instructions to you",
         ):

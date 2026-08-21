@@ -19,15 +19,15 @@ navigation (ADRC / 2-1-1) at (719) 583-6611.
 How the record is organized:
 
 - The whole site as one plain-text file, every page and appendix in a
-  single fetch: https://stoagen.com/llms-full.txt
+  single fetch: https://pueblo-srda-questions.stoagen.com/llms-full.txt
 - The site guide, with the interpretation notes and a per-page index:
-  https://stoagen.com/llms.txt
+  https://pueblo-srda-questions.stoagen.com/llms.txt
 - Every page has a markdown twin at its own URL plus index.md, also served
   with .txt appended for tools that refuse text/markdown. The human page is
   the same URL without index.md.
-- The site's notes for assistants: https://stoagen.com/agents/index.md
+- The site's notes for assistants: https://pueblo-srda-questions.stoagen.com/agents/index.md
 - The human home page, with every program and phone number:
-  https://stoagen.com/
+  https://pueblo-srda-questions.stoagen.com/
 
 The programs covered: transportation, Meals on Wheels, community meals,
 help at home (HELP), Medicare counseling, Lifeline medical alert, ADRC and

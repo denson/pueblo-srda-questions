@@ -1,7 +1,7 @@
 # Site source — rules that hold regardless of the task
 
 Portable variant for non-Claude runtimes. This directory builds
-`stoagen.com`; `public/` is generated output — never edit it.
+`pueblo-srda-questions.stoagen.com`; `public/` is generated output — never edit it.
 
 ## Pages are Markdown; the page is a subset of them
 

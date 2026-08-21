@@ -1,4 +1,4 @@
-"""Build the no-JavaScript stoagen.com static site.
+"""Build the no-JavaScript pueblo-srda-questions.stoagen.com static site.
 
 Pattern: every page is authored whole as Markdown under content/; the HTML
 page is the part above the agent-only marker, and the Markdown mirror beside
@@ -29,7 +29,7 @@ CONTENT = SOURCE / "content"
 # split ever fails the text is invisible rather than published.
 AGENT_MARKER = "<!-- agent-only -->"
 PUBLIC = ROOT / "public"
-DOMAIN = "https://stoagen.com"
+DOMAIN = "https://pueblo-srda-questions.stoagen.com"
 SITE_NAME = "Pueblo Senior Services, Explained"
 
 NAV = [
@@ -414,7 +414,7 @@ def write_feed(pages: list[Page]) -> None:
         + '<rss version="2.0"><channel>' + chr(10)
         + f"  <title>{SITE_NAME} - recently updated</title>" + chr(10)
         + f"  <link>{DOMAIN}/</link>" + chr(10)
-        + "  <description>Pages on stoagen.com, newest updates first. Update times come from each page's revision history.</description>" + chr(10)
+        + "  <description>Pages on pueblo-srda-questions.stoagen.com, newest updates first. Update times come from each page's revision history.</description>" + chr(10)
         + f"  <lastBuildDate>{newest}</lastBuildDate>" + chr(10)
         + chr(10).join(items) + chr(10)
         + "</channel></rss>" + chr(10)
@@ -469,7 +469,7 @@ def main() -> None:
     (PUBLIC / "start.md").write_text(start, encoding="utf-8", newline="\n")
     (PUBLIC / "start.md.txt").write_text(start, encoding="utf-8", newline="\n")
     (PUBLIC / ".nojekyll").write_text("", encoding="utf-8", newline="\n")
-    (PUBLIC / "CNAME").write_text("stoagen.com\n", encoding="utf-8", newline="\n")
+    (PUBLIC / "CNAME").write_text("pueblo-srda-questions.stoagen.com\n", encoding="utf-8", newline="\n")
     write_sitemap(pages)
     write_feed(pages)
     write_llms_full(pages)
