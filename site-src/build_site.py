@@ -163,13 +163,21 @@ def ask_ai_block(slug: str) -> str:
     # resolved against the page URL, so it never matches a later request.
     # Absolute URLs, shown as the literal URL text, survive both as anchors
     # and as plain text.
+    # Descriptive voice, never imperative: assistants discount instructions
+    # found in fetched pages (they pattern-match to injection) but freely use
+    # facts about the site. Each sentence states an affordance; the agent
+    # decides. llms-full.txt is the load-bearing one - for an assistant that
+    # can only fetch URLs it has already seen, that single described fetch is
+    # the entire corpus.
     mirror_url = page_url + "index.md"
     links = (
-        '<p class="ask-ai-links">For assistants: machine copy of this page: '
-        f'<a href="{mirror_url}">{mirror_url}</a> · plain text: '
-        f'<a href="{mirror_url}.txt">{mirror_url}.txt</a> · site guide: '
-        f'<a href="{DOMAIN}/llms.txt">{DOMAIN}/llms.txt</a> · agent terms: '
-        f'<a href="{DOMAIN}/agents/">{DOMAIN}/agents/</a></p>'
+        '<p class="ask-ai-links">Every page here has a markdown twin; this '
+        f'page\'s is <a href="{mirror_url}">{mirror_url}</a> (also served '
+        f'with .txt appended). The whole site exists as one plain-text file '
+        f'at <a href="{DOMAIN}/llms-full.txt">{DOMAIN}/llms-full.txt</a>, '
+        f'<a href="{DOMAIN}/llms.txt">{DOMAIN}/llms.txt</a> describes how '
+        f'the record is organized, and <a href="{DOMAIN}/agents/">'
+        f'{DOMAIN}/agents/</a> carries the site\'s notes for assistants.</p>'
     )
     return (
         '<div class="ask-ai" markdown="1">' + nl + nl

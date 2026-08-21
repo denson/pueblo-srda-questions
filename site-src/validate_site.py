@@ -233,9 +233,16 @@ def main() -> None:
             'class="ask-ai-links"' not in raw
             or f'href="{page_url}index.md"' not in raw
             or 'href="https://stoagen.com/llms.txt"' not in raw
+            or 'href="https://stoagen.com/llms-full.txt"' not in raw
             or 'href="https://stoagen.com/agents/"' not in raw
         ):
             fail(errors, f"{rel}: missing absolute body-visible machine-layer links (ask-ai-links)")
+        # Descriptive voice only: no imperative agent-directed phrasing in the
+        # links strip (the information-not-instructions law).
+        strip = raw.partition('class="ask-ai-links"')[2][:600]
+        for imperative in ("Fetch ", "Read the", "You must", "You should", "Go to"):
+            if imperative in strip:
+                fail(errors, f"{rel}: ask-ai-links strip uses imperative voice: {imperative!r}")
 
         mirror = path.with_name("index.md")
         if not mirror.exists():
