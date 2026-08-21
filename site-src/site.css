@@ -140,8 +140,9 @@ pre code{font-size:15px;line-height:1.5}
 .ask-ai-title{font:600 var(--text-h3)/var(--lh-head) var(--font-head);margin:0 0 8px;color:var(--text-body)}
 .ask-ai p{color:var(--text-soft);margin:0 0 12px}
 .ask-ai pre{margin:0 0 12px;background:var(--surface-card)}
+.ask-ai code{display:inline-block;max-width:100%;overflow-wrap:anywhere;word-break:break-all;background:var(--surface-card);border:1px solid var(--border);border-radius:var(--radius-sm);padding:10px 14px;font-size:15px}
 .ask-ai .examples{font-size:var(--text-sm);margin:0}
-.ask-ai .ask-ai-links{font:400 var(--text-sm)/1.7 var(--font-mono);color:var(--machine-text);margin:12px 0 0;border-top:1px dashed var(--border);padding-top:10px}
+.ask-ai .ask-ai-links{font:400 var(--text-sm)/1.7 var(--font-mono);color:var(--machine-text);margin:12px 0 0;border-top:1px dashed var(--border);padding-top:10px;overflow-wrap:anywhere}
 .ask-ai .ask-ai-links a{color:var(--machine-text)}
 
 /* Program cards */

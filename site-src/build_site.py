@@ -154,18 +154,22 @@ def ask_ai_block(slug: str) -> str:
     own advertisement - so the reader just pastes the link and asks. No copy
     button: the site ships no JavaScript, so the reader selects the text."""
     page_url = f"{DOMAIN}/{slug}/" if slug else f"{DOMAIN}/"
-    prefix = "../" * (len(Path(slug).parts) if slug else 0)
     nl = chr(10)
     # The machine-layer links are repeated here IN THE BODY, not just the
     # footer and <head>: field-tested agent fetchers extract page text and
     # only follow links that survive that extraction. Footer links and
-    # <link rel="alternate"> elements are invisible to them; body links work.
+    # <link rel="alternate"> elements never reach them, and (second field
+    # test) neither do relative hrefs - the extracted "../../llms.txt" is not
+    # resolved against the page URL, so it never matches a later request.
+    # Absolute URLs, shown as the literal URL text, survive both as anchors
+    # and as plain text.
+    mirror_url = page_url + "index.md"
     links = (
-        "<p class=\"ask-ai-links\">For assistants: this page's machine copy is "
-        '<a href="index.md">index.md</a> '
-        '(<a href="index.md.txt">index.md.txt</a> as plain text). '
-        f'Site guide: <a href="{prefix}llms.txt">llms.txt</a>. '
-        f'Interpretation rules: <a href="{prefix}agents/">agent terms</a>.</p>'
+        '<p class="ask-ai-links">For assistants: machine copy of this page: '
+        f'<a href="{mirror_url}">{mirror_url}</a> · plain text: '
+        f'<a href="{mirror_url}.txt">{mirror_url}.txt</a> · site guide: '
+        f'<a href="{DOMAIN}/llms.txt">{DOMAIN}/llms.txt</a> · agent terms: '
+        f'<a href="{DOMAIN}/agents/">{DOMAIN}/agents/</a></p>'
     )
     return (
         '<div class="ask-ai" markdown="1">' + nl + nl

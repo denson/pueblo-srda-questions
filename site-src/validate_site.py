@@ -224,10 +224,18 @@ def main() -> None:
         if "Ask your AI about this page" not in visible:
             fail(errors, f"{rel}: missing the ask-your-AI box")
         # Field-tested: agent fetchers only follow links that survive text
-        # extraction, and footer/<head> links do not. The machine layer must
-        # be linked in the page BODY on every page.
-        if 'class="ask-ai-links"' not in raw or 'href="index.md"' not in raw:
-            fail(errors, f"{rel}: missing body-visible machine-layer links (ask-ai-links)")
+        # extraction; footer/<head> links do not, and relative hrefs are not
+        # resolved against the page URL. The machine layer must be linked in
+        # the page BODY, as ABSOLUTE URLs, on every page.
+        slug_dir = path.relative_to(PUBLIC).parent.as_posix()
+        page_url = "https://stoagen.com/" + (slug_dir + "/" if slug_dir != "." else "")
+        if (
+            'class="ask-ai-links"' not in raw
+            or f'href="{page_url}index.md"' not in raw
+            or 'href="https://stoagen.com/llms.txt"' not in raw
+            or 'href="https://stoagen.com/agents/"' not in raw
+        ):
+            fail(errors, f"{rel}: missing absolute body-visible machine-layer links (ask-ai-links)")
 
         mirror = path.with_name("index.md")
         if not mirror.exists():
