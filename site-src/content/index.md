@@ -6,10 +6,10 @@ description: SRDA is Pueblo's senior services agency. This site lays out each of
 # Every program SRDA runs, and the questions we still have.
 
 <div class="phone-call">
-<p class="phone-call-label">Not sure where to start?</p>
+<p class="phone-call-label">Questions get answered by calling</p>
 <a class="phone-call-number" href="tel:7195458900">(719) 545-8900</a>
 <p class="phone-call-name">SRDA front desk, 230 N. Union Ave</p>
-<p class="phone-call-note">Monday through Friday, 8 a.m. to 5 p.m. Tell them what you need in your own words. They will route you.</p>
+<p class="phone-call-note">Monday through Friday, 8 a.m. to 5 p.m. Ask your question in your own words; they will route you. And if their answer fills one of this site's gaps, tell us, and the page gets updated for everyone.</p>
 </div>
 
 ## The programs
