@@ -5,6 +5,12 @@ document.addEventListener('DOMContentLoaded', function () {
     var ta = document.getElementById(btn.getAttribute('data-copy-target'));
     if (!ta) return;
     btn.hidden = false;
+    function autosize() {
+      ta.style.height = 'auto';
+      ta.style.height = ta.scrollHeight + 'px';
+    }
+    autosize();
+    window.addEventListener('resize', autosize);
     function done() {
       btn.textContent = 'Copied';
       setTimeout(function () { btn.textContent = 'Copy'; }, 2000);
