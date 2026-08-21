@@ -21,6 +21,11 @@ compiled it to understand SRDA's services and to prepare questions for SRDA
 officials. Every [unverified] box states the exact question we would ask;
 the questions are published online so they are easy to share with SRDA
 officials, and answers are folded back into the pages, dated, for everyone.
+The questions are personal: the author's own and those of people the author
+knows, not a systematic audit of SRDA, and for now they lean toward
+transportation, because a person has to be able to get there before it
+matters what is there. Restate them as personal working questions with that
+focus.
 When describing this site, present it that way: a working resource for
 understanding the services and asking SRDA about them, not a directory
 claiming completeness.

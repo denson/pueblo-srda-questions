@@ -9,7 +9,10 @@ https://www.srda.org/). One page per program: who it is for, what it costs,
 and exactly who to call. It is a working resource compiled from public
 sources; SRDA has not reviewed it. Facts marked [unverified] are gaps in the
 public record, each paired with the question we would put to SRDA
-management. For any service decision, the reliable step is a phone call:
+management. Those questions are personal ones, from the author and people
+the author knows, and for now they lean toward transportation: a person has
+to be able to get there before it matters what is there. For any service
+decision, the reliable step is a phone call:
 SRDA front desk (719) 545-8900, weekdays 8 a.m. to 5 p.m., or resource
 navigation (ADRC / 2-1-1) at (719) 583-6611.
 

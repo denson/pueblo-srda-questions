@@ -28,6 +28,8 @@ A gap is not a criticism. It just means the answer is not published, and the per
 
 This site is a working resource, not a finished directory. We compiled it to understand SRDA's services ourselves, and the [unverified] boxes state the exact questions we would put to SRDA officials. Publishing the questions online makes them easy to share: anyone meeting with SRDA can bring a page along, ask, and tell us what they learned. When answers arrive, the pages are updated and dated, and the results are public for everyone.
 
+The questions are personal. They are the ones we and people we know actually need answered, not a systematic audit of SRDA. That is why so many of them circle back to transportation: every program on this site assumes you can reach it, and a ride is where independence starts or stops. We have to get there for it to matter what is there. As our questions grow past transportation, so will the pages.
+
 ## Why every page mentions AI
 
 Every page here publishes a machine-readable copy alongside the page you see. That means you, or your daughter three states away, can paste a page's link into ChatGPT, Claude, or any AI assistant and ask questions in plain words. The assistant reads the current record, including the source notes and the honest gaps, instead of guessing from old training data.
