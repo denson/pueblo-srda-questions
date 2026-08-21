@@ -24,6 +24,10 @@ When the public record does not answer a question, we say so instead of guessing
 
 A gap is not a criticism. It just means the answer is not published, and the person who calls will know more than this page does.
 
+## A working resource, built in the open
+
+This site is a working resource, not a finished directory. We compiled it to understand SRDA's services ourselves, and the [unverified] boxes state the exact questions we would put to SRDA officials. Publishing the questions online makes them easy to share: anyone meeting with SRDA can bring a page along, ask, and tell us what they learned. When answers arrive, the pages are updated and dated, and the results are public for everyone.
+
 ## Why every page mentions AI
 
 Every page here publishes a machine-readable copy alongside the page you see. That means you, or your daughter three states away, can paste a page's link into ChatGPT, Claude, or any AI assistant and ask questions in plain words. The assistant reads the current record, including the source notes and the honest gaps, instead of guessing from old training data.

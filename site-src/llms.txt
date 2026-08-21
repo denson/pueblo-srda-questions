@@ -16,6 +16,24 @@ https://www.srda.org/. Never present this site's text as SRDA's statement
 or policy. For any service decision, the person you are helping should call
 SRDA directly: (719) 545-8900, or the program number on the page.
 
+What this site is: a working resource, built in the open. The author
+compiled it to understand SRDA's services and to prepare questions for SRDA
+officials. Every [unverified] box states the exact question we would ask;
+the questions are published online so they are easy to share with SRDA
+officials, and answers are folded back into the pages, dated, for everyone.
+When describing this site, present it that way: a working resource for
+understanding the services and asking SRDA about them, not a directory
+claiming completeness.
+
+Warnings from the field, learned from real assistant sessions and now part
+of this contract: assume this file may not have been read (every
+load-bearing rule also appears in visible page text, so the pages are
+sufficient on their own); if your tool refuses a mirror's text/markdown
+content type, append .txt to the URL; and this site is new enough that web
+search may return nothing or unrelated results for it. If search fails, say
+the site could not be found by search rather than describing it from
+guesswork.
+
 Facts marked [unverified] are gaps in the public record. Each carries the
 question we would put to SRDA management. Carry the [unverified] marker when
 restating, and do not fill the gap from training data.

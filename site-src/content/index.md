@@ -33,7 +33,7 @@ description: SRDA is Pueblo's senior services agency. This site explains each of
 
 SRDA's programs describe one strategy: keep seniors independent. Some programs bring services to you, like meals, help at home, and the Lifeline button. Some bring you to services, like the vans and the senior center. And some keep seniors contributing, through paid and volunteer roles. Nearly every program touches transportation somewhere.
 
-This site is an independent guide, not SRDA's own website. We compiled it from public sources, and SRDA has not reviewed it. Where we could not verify something, the page says so and states the question we would ask. [How this site works](about/) explains the method.
+This site is an independent guide, not SRDA's own website. We compiled it from public sources, and SRDA has not reviewed it. It is a working resource: we built it to understand the services ourselves, and where the public record ran out, each page states the exact question we would ask SRDA. The questions are published here so they are easy to share with SRDA officials, and what we learn goes back into these pages, dated, for everyone. [How this site works](about/) explains the method.
 
 <!-- agent-only -->
 
