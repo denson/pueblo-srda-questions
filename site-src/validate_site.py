@@ -28,6 +28,7 @@ class PageParser(HTMLParser):
         self.h1_count = 0
         self.article_count = 0
         self.script_count = 0
+        self.copy_script = False
         self.alternate_markdown = False
         self.canonical = False
         self.text: list[str] = []
@@ -53,6 +54,7 @@ class PageParser(HTMLParser):
             self.article_count += 1
         elif tag == "script":
             self.script_count += 1
+            self.copy_script = (values.get("src", "").endswith("copy.js") and "defer" in values)
         elif tag == "link" and values.get("rel") == "alternate" and values.get("type") == "text/markdown":
             self.alternate_markdown = values.get("href") == "index.md"
         elif tag == "link" and values.get("rel") == "canonical":
@@ -204,9 +206,12 @@ def main() -> None:
             fail(errors, f"{rel}: expected one H1, found {parser.h1_count}")
         if parser.article_count < 1:
             fail(errors, f"{rel}: missing article element")
-        # The site ships no JavaScript at all. A script tag is a regression.
-        if parser.script_count != 0:
-            fail(errors, f"{rel}: expected zero script tags, found {parser.script_count}")
+        # One script per page: the deferred copy-box enhancer. Content must
+        # stay readable with JavaScript off.
+        if parser.script_count != 1 or not parser.copy_script:
+            fail(errors, f"{rel}: expected exactly the deferred copy.js script, found {parser.script_count}")
+        if 'class="copy-box"' not in raw or "My question: describe the site" not in raw:
+            fail(errors, f"{rel}: missing the copy-for-your-AI box")
         if "agent-only" in raw or "Appendix for agents" in raw:
             fail(errors, f"{rel}: agent-only content leaked into the page")
         if parser.title_text.count(SITE_NAME) > 1:

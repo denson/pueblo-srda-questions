@@ -41,7 +41,8 @@ history renders as a draft, which is correct. CI needs `fetch-depth: 0`.
 
 ## Hard constraints
 
-- **Zero JavaScript.** The validator fails the build on any script tag.
+- **One script per page**, the deferred copy-box enhancer. Content must
+  stay readable with JavaScript off; the validator enforces both.
   Everything must work read-only, with large type, and print cleanly.
 - **Program pages carry a phone-call block** with a `tel:` link. Calling is
   the action this site exists to produce.
