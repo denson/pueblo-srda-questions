@@ -54,7 +54,7 @@ MARK_SVG = (
 COPY_BOX = (
     '<div class="copy-box">'
     '<label class="copy-box-label" for="ai-paste">For your AI assistant</label>'
-    f'<textarea class="copy-box-text" id="ai-paste" readonly rows="2">The whole site as one text file: {DOMAIN}/llms-full.txt</textarea>'
+    f'<textarea class="copy-box-text" id="ai-paste" readonly rows="2">Tell me about this site: {DOMAIN}/llms-full.txt</textarea>'
     '<button type="button" class="copy-box-btn" data-copy-target="ai-paste" hidden>Copy</button>'
     '</div>'
 )
