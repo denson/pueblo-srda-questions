@@ -210,7 +210,7 @@ def main() -> None:
         # stay readable with JavaScript off.
         if parser.script_count != 1 or not parser.copy_script:
             fail(errors, f"{rel}: expected exactly the deferred copy.js script, found {parser.script_count}")
-        if 'class="copy-box"' not in raw or "Tell me about this site:" not in raw:
+        if 'class="copy-box"' not in raw or "full_site.txt</textarea>" not in raw:
             fail(errors, f"{rel}: missing the copy-for-your-AI box")
         if "agent-only" in raw or "Appendix for agents" in raw:
             fail(errors, f"{rel}: agent-only content leaked into the page")
@@ -317,6 +317,9 @@ def main() -> None:
         fail(errors, "feed.xml is not RSS")
     if not (PUBLIC / "llms-full.txt").exists():
         fail(errors, "llms-full.txt missing")
+    full = PUBLIC / "full_site.txt"
+    if not full.exists() or full.read_bytes() != (PUBLIC / "llms-full.txt").read_bytes():
+        fail(errors, "full_site.txt missing or differs from llms-full.txt")
 
     start = PUBLIC / "start.md"
     if not start.exists():

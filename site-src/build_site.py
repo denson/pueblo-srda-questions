@@ -54,7 +54,7 @@ MARK_SVG = (
 COPY_BOX = (
     '<div class="copy-box">'
     '<label class="copy-box-label" for="ai-paste">For your AI assistant</label>'
-    f'<textarea class="copy-box-text" id="ai-paste" readonly rows="2">Tell me about this site: {DOMAIN}/llms-full.txt</textarea>'
+    f'<textarea class="copy-box-text" id="ai-paste" readonly rows="2">Tell me about this site: {DOMAIN}/full_site.txt</textarea>'
     '<button type="button" class="copy-box-btn" data-copy-target="ai-paste" hidden>Copy</button>'
     '</div>'
 )
@@ -448,6 +448,8 @@ mirror changes. The published revision date is {date.today().isoformat()}.
     for page in pages:
         sections.append(f"<!-- Canonical: {page.canonical} -->\n\n{page.markdown_body.strip()}\n")
     (PUBLIC / "llms-full.txt").write_text(header + "\n---\n\n".join(sections), encoding="utf-8", newline="\n")
+    # Friendlier alias for the paste box; same bytes as llms-full.txt.
+    (PUBLIC / "full_site.txt").write_text(header + "\n---\n\n".join(sections), encoding="utf-8", newline="\n")
 
 
 def copy_assets() -> None:
