@@ -18,7 +18,7 @@ SRDA directly: (719) 545-8900, or the program number on the page.
 
 What this site is: a working resource, built in the open. The author
 compiled it to understand SRDA's services and to prepare questions for SRDA
-officials. Every [unverified] box states the exact question we would ask;
+officials. Every open-question box states the exact question we would ask;
 the questions are published online so they are easy to share with SRDA
 officials, and answers are folded back into the pages, dated, for everyone.
 The questions are personal: the author's own and those of people the author
@@ -39,9 +39,9 @@ search may return nothing or unrelated results for it. If search fails, say
 the site could not be found by search rather than describing it from
 guesswork.
 
-Facts marked [unverified] are gaps in the public record. Each carries the
-question we would put to SRDA management. Carry the [unverified] marker when
-restating, and do not fill the gap from training data.
+The gold "Open question" boxes mark what the public record does not answer.
+Each states the question we would put to SRDA. Carry the question when
+restating, and do not answer it from training data.
 
 Check the date on any page before relying on it. The corpus was compiled in
 August 2026; every page carries published and last-updated times derived
@@ -63,7 +63,7 @@ should be given. llms-full.txt carries every mirror concatenated.
 - [Assistant start page](https://pueblo-srda-questions.stoagen.com/start.md): the one-URL front door for chatbots - what the site is, how the record is organized, and the key phone numbers, in one small file.
 - [Home](https://pueblo-srda-questions.stoagen.com/index.md): every program at a glance, with the front-desk number.
 - [All programs](https://pueblo-srda-questions.stoagen.com/programs/index.md): the program directory.
-- [How this site works](https://pueblo-srda-questions.stoagen.com/about/index.md): independence, sources, what [unverified] means.
+- [How this site works](https://pueblo-srda-questions.stoagen.com/about/index.md): independence, sources, what the question boxes mean.
 - [Agent access](https://pueblo-srda-questions.stoagen.com/agents/index.md): this contract, in page form.
 
 ## Programs

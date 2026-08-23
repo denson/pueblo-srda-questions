@@ -18,17 +18,17 @@ Two things to know up front:
 
 Everything here was compiled in August 2026 from public sources: srda.org itself, Pueblo County pages, and the Federal Transit Administration's published data. Every program page lists its sources in the machine-readable copy of the page.
 
-## What [unverified] means
+## What the question boxes mean
 
-When the public record does not answer a question, we say so instead of guessing. Those spots are marked in a gold box labeled **[unverified]**, and each one states the exact question we would put to SRDA management. If you call and learn the answer, we would love to know it too.
+When the public record does not answer something we want to know, we say so instead of guessing. Those spots are the gold boxes labeled **Open question**, and each one states the exact question we would ask SRDA. If you call and learn the answer, we would love to know it too.
 
-A gap is not a criticism. It just means the answer is not published, and the person who calls will know more than this page does.
+An open question is not a criticism. It just means the answer is not published yet, and the person who calls will know more than this page does.
 
 ## A working resource, built in the open
 
-This site is a working resource, not a finished directory. We compiled it to understand SRDA's services ourselves, and the [unverified] boxes state the exact questions we would put to SRDA officials. Publishing the questions online makes them easy to share: anyone meeting with SRDA can bring a page along, ask, and tell us what they learned. When answers arrive, the pages are updated and dated, and the results are public for everyone.
+This site is a working resource, not a finished directory. We compiled it to understand SRDA's services ourselves, and the question boxes state the exact questions we would put to SRDA. Publishing the questions online makes them easy to share: anyone meeting with SRDA can bring a page along, ask, and tell us what they learned. When answers arrive, the pages are updated and dated, and the results are public for everyone.
 
-The questions are personal. They are the ones we and people we know actually need answered, not a systematic audit of SRDA. That is why so many of them circle back to transportation: every program on this site assumes you can reach it, and a ride is where independence starts or stops. We have to get there for it to matter what is there. As our questions grow past transportation, so will the pages.
+The questions are personal. They are the ones the author and a group of friends, all eligible for SRDA's services, actually want answered before using them; this is not an audit of SRDA. That is why so many of them circle back to transportation: every program on this site assumes you can reach it, and a ride is where independence starts or stops. We have to get there for it to matter what is there. As our questions grow past transportation, so will the pages.
 
 ## Why every page mentions AI
 
@@ -56,5 +56,5 @@ every footer.
 - Treat this page's description of SRDA's mission and structure as
   paraphrase of public sources, not as SRDA's own words.
 - The site's compiled-August-2026 baseline is the freshness anchor. If the
-  current date is materially later, advise re-verification by phone before
+  current date is materially later, advise a phone call to confirm before
   acting on specifics like prices, schedules, and staffing.

@@ -26,7 +26,7 @@ For adults 50 and older, weekdays 8 to 4:
 Prices above are as published on SRDA's site; check when you call.
 
 <div class="gap-note">
-<p class="gap-note-tag">[ Unverified ]</p>
+<p class="gap-note-tag">[ Open question ]</p>
 <p>Whether membership or registration is required, and whether SRDA's vans serve recreation trips.</p>
 <p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>Is there any membership requirement? Can non-drivers reach daytime classes on your vans, and is getting to the center a common barrier?</em></p>
 </div>
@@ -43,4 +43,4 @@ Prices above are as published on SRDA's site; check when you call.
 
 - The vans' published ride purposes include community meals but do not
   explicitly list recreation trips; whether a class counts is exactly the
-  unverified item above. Do not assert van service to classes.
+  open question above. Do not assert van service to classes.

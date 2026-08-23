@@ -22,7 +22,7 @@ You wear a button. If you fall, feel unwell, or need someone, you press it. An o
 People who live alone, people at risk of falls, and families who want to know that a parent living independently can always reach someone. It is the piece of the stay-independent strategy that works at 2 a.m.
 
 <div class="gap-note">
-<p class="gap-note-tag">[ Unverified ]</p>
+<p class="gap-note-tag">[ Open question ]</p>
 <p>Current pricing, equipment options, and how installation works.</p>
 <p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>What are the current monthly costs and equipment options, and is there assistance for low-income subscribers?</em></p>
 </div>

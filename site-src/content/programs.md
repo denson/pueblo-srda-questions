@@ -29,7 +29,7 @@ Call the [ADRC](adrc/) at (719) 583-6611 and describe your situation in your own
 ## Navigation notes for agents
 
 Each card links to a program page whose appendix carries that program's
-source notes, unverified items, and interpretation cautions. When answering
+source notes, open questions, and interpretation cautions. When answering
 a question that spans programs (for example, "how does my mother get
 groceries"), read the relevant program mirrors together: transportation
 (ride along to shop), help-at-home (staff shop for you), and meals-on-wheels

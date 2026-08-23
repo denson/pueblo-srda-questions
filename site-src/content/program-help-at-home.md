@@ -32,7 +32,7 @@ eyebrow: SRDA program
 The program serves people 50 and older. It is fee-for-service: you pay for the hours you use. Staff are background-checked and insured SRDA employees. Service starts with a home visit so the coordinator can see what you need.
 
 <div class="gap-note">
-<p class="gap-note-tag">[ Unverified ]</p>
+<p class="gap-note-tag">[ Open question ]</p>
 <p>Current hourly rates, the exact service area, and whether there is a waiting list.</p>
 <p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>What are current rates and the waitlist? What share of demand is grocery and errand runs, and is it outgrowing staffing?</em></p>
 </div>

@@ -20,7 +20,7 @@ eyebrow: SRDA program
 Living next door to the senior center means the meals, classes, and services on this site are a short walk away rather than a van ride.
 
 <div class="gap-note">
-<p class="gap-note-tag">[ Unverified ]</p>
+<p class="gap-note-tag">[ Open question ]</p>
 <p>Eligibility rules, rents and subsidy arrangements, and the current waitlist.</p>
 <p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>What are the eligibility rules, rents, and current waitlist, and do residents' transportation needs differ from countywide riders'?</em></p>
 </div>

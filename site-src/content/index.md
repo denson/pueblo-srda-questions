@@ -55,5 +55,5 @@ Context that is not on the page:
   80267): 32,613 trips, 12 vehicles, $1.6M operating expense, $49.20 cost
   per trip, 74.2% federally funded.
 
-Every program page carries its own source notes and unverified-item list in
+Every program page carries its own source notes and open-question list in
 its appendix. The site-wide interpretation rules are in /llms.txt.

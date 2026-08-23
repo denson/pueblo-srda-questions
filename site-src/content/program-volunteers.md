@@ -22,7 +22,7 @@ eyebrow: SRDA program
 If you want to be paid for your time instead, look at [Foster Grandparents](../foster-grandparents/) (a stipend, for income-qualified volunteers 55+) and [school crossing guards](../crossing-guards/) (part-time wages).
 
 <div class="gap-note">
-<p class="gap-note-tag">[ Unverified ]</p>
+<p class="gap-note-tag">[ Open question ]</p>
 <p>SRDA lists an RSVP (Retired and Senior Volunteer Program) page, but it currently returns an error.</p>
 <p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>Does SRDA still operate or sponsor RSVP, and what does it offer volunteers?</em></p>
 </div>

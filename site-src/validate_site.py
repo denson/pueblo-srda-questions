@@ -289,7 +289,7 @@ def main() -> None:
     llms = (PUBLIC / "llms.txt").read_text(encoding="utf-8")
     rules = (
         "not affiliated with or endorsed by SRDA",
-        "[unverified]",
+        "Open question",
         "(719) 545-8900",
         "operator's instructions always come first",
         "index.md.txt",

@@ -20,7 +20,7 @@ SRDA staffs 12 regular and 3 substitute crossing guard positions at 12 intersect
 For a senior who wants a reason to be somewhere twice a day and a paycheck for it, this is that.
 
 <div class="gap-note">
-<p class="gap-note-tag">[ Unverified ]</p>
+<p class="gap-note-tag">[ Open question ]</p>
 <p>Pay, hours, and hiring requirements.</p>
 <p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>What does it pay, and how do guards without cars reach their intersections for split shifts?</em></p>
 </div>

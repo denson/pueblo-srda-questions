@@ -26,7 +26,7 @@ Foster grandparents tutor and mentor children in elementary schools, preschools,
 The program is for income-qualified adults 55 and older. Call and ask; the income limits are part of the qualifying conversation.
 
 <div class="gap-note">
-<p class="gap-note-tag">[ Unverified ]</p>
+<p class="gap-note-tag">[ Open question ]</p>
 <p>The stipend amount, the mileage rate, and how volunteers who do not drive reach their placements.</p>
 <p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>How do non-driving foster grandparents get to placements today, how many willing volunteers can't serve for lack of a ride, and can mileage reimbursement apply when a volunteer rides rather than drives?</em></p>
 </div>

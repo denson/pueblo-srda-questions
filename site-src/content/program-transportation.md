@@ -37,7 +37,7 @@ The vans run curb-to-curb across Pueblo County, including Pueblo West, where the
 - The fleet is wheelchair-accessible vans.
 
 <div class="gap-note">
-<p class="gap-note-tag">[ Unverified ]</p>
+<p class="gap-note-tag">[ Open question ]</p>
 <p>Current service levels since the FY2024 federal data, the real booking lead time in practice, the share of capacity used by wheelchair trips, and whether the $2 contribution is posted or genuinely open.</p>
 <p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>How many vehicles are in service today, how many trips a day, and what is the real booking lead time? Is extra lead time needed for Pueblo West or rural trips?</em></p>
 </div>
@@ -58,7 +58,7 @@ The vans run curb-to-curb across Pueblo County, including Pueblo West, where the
 ## Interpretation cautions
 
 - "3 working days ahead" is the published booking rule; whether practice runs
-  at 48 to 72 hours is unverified. Advise callers to ask dispatch directly.
+  at 48 to 72 hours is an open question. Advise callers to ask dispatch directly.
 - Do not present the vans as an on-demand or same-day service. There is no
   evening, weekend, or same-day service in the public record.
 - Eligibility for riders aged 18 to 59 runs through ADRC assessment; the

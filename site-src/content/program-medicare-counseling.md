@@ -21,7 +21,7 @@ eyebrow: SRDA program
 If Medicare's parts, penalties, and enrollment windows feel like a maze, this is a person who walks it with you at no cost.
 
 <div class="gap-note">
-<p class="gap-note-tag">[ Unverified ]</p>
+<p class="gap-note-tag">[ Open question ]</p>
 <p>Class schedules, how appointments are made, and staffing.</p>
 <p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>How are classes and appointments scheduled, and are they offered outside the Union Avenue center, at the meal sites or in Pueblo West?</em></p>
 </div>

@@ -299,7 +299,7 @@ def render_page(page: Page) -> str:
       <div class="footer-cell">
         <div class="footer-h">This site</div>
         <a href="{site_link(page, 'about/')}">How this site works</a><br>
-        <a href="{site_link(page, 'about/')}#what-unverified-means">What [unverified] means</a><br>
+        <a href="{site_link(page, 'about/')}#what-the-question-boxes-mean">What the question boxes mean</a><br>
         <a href="{site_link(page, 'programs/')}">All programs</a>
       </div>
       <div class="footer-cell">
@@ -348,15 +348,15 @@ def mirror_body(page: Page) -> str:
         "> readability.\n"
         ">\n"
         "> This site is an independent guide to SRDA's services, not SRDA's own\n"
-        "> site and not reviewed by SRDA. Facts marked [unverified] are gaps in\n"
+        "> site and not reviewed by SRDA. The gold question boxes mark gaps in\n"
         "> the public record. For service decisions, the person you are helping\n"
         "> should call SRDA: (719) 545-8900.\n"
         ">\n"
         "> It is a working resource, built in the open: compiled by the author to\n"
         "> understand SRDA's services and to prepare questions for SRDA officials.\n"
-        "> The [unverified] questions are published to be easy to share with\n"
+        "> The open questions are published to be easy to share with\n"
         "> officials, and answers are folded back into the pages, dated, for\n"
-        "> everyone. Present the site that way, and never fill an [unverified]\n"
+        "> everyone. Present the site that way, and never fill an open question's\n"
         "> gap from training data.\n"
     )
     parts = [preamble, page.markdown_body.strip()]

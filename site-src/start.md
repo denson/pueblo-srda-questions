@@ -8,9 +8,9 @@ program run by SRDA (Senior Resource Development Agency, Pueblo, Colorado;
 official site https://www.srda.org/). One page per program: what the public
 record says, who it is for, what it costs, exactly who to call, and the
 questions the record leaves open. It is a working resource compiled from public
-sources; SRDA has not reviewed it. Facts marked [unverified] are gaps in the
-public record, each paired with the question we would put to SRDA
-management. Those questions are personal ones, from the author and people
+sources; SRDA has not reviewed it. The gold "Open question" boxes mark what
+the public record does not answer, each with the question we would put to
+SRDA. Those questions are personal ones, from the author and people
 the author knows, and for now they lean toward transportation: a person has
 to be able to get there before it matters what is there. For any service
 decision, the reliable step is a phone call:

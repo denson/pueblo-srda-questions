@@ -24,7 +24,7 @@ Hot noon meals served at sites around the county, with the social hour that come
 - Meal volunteers, and nutrition staff 60 and older.
 
 <div class="gap-note">
-<p class="gap-note-tag">[ Unverified ]</p>
+<p class="gap-note-tag">[ Open question ]</p>
 <p>The current list of meal sites, their schedules, and the suggested donation amount.</p>
 <p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>Which sites operate now, on what schedules, and does transportation demand to the sites exceed van capacity?</em></p>
 </div>

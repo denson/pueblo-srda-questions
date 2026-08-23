@@ -22,7 +22,7 @@ Daily meals go to people 60 and older who are homebound or isolated, plus some o
 Volunteer drivers deliver the meals. SRDA is a Meals on Wheels America member as of 2026, and its site actively recruits new volunteer drivers. If you drive and have a free hour on a weekday, this is one of the most direct ways to help a neighbor.
 
 <div class="gap-note">
-<p class="gap-note-tag">[ Unverified ]</p>
+<p class="gap-note-tag">[ Open question ]</p>
 <p>Route counts, delivery windows, the size of the driver shortage, and whether volunteer drivers get mileage reimbursement, and at which rate.</p>
 <p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>How many routes a day, over what hours and mileage? How short of drivers are you? Is mileage reimbursement offered, and at which rate?</em></p>
 </div>
