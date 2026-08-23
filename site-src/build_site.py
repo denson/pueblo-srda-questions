@@ -35,6 +35,7 @@ SITE_NAME = "Pueblo SRDA Questions"
 NAV = [
     ("Home", ""),
     ("Programs", "programs/"),
+    ("Learned so far", "learned/"),
     ("How this site works", "about/"),
     ("For AI agents", "agents/"),
 ]

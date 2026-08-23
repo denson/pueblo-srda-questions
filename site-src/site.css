@@ -135,6 +135,20 @@ pre code{font-size:15px;line-height:1.5}
 .gap-note p{margin:0}
 .gap-note p + p{margin-top:0.6em}
 
+/* An answered question keeps its box, turns sage, and carries the dated answer */
+.gap-note.answered{background:var(--call-bg);border-color:var(--call-border)}
+.gap-note.answered .gap-note-tag{color:var(--call-text)}
+.gap-note.answered .gap-note-q{border-top-color:var(--call-border)}
+.gap-note.answered .gap-note-q strong{color:var(--call-text)}
+.gap-note-a{margin-top:var(--space-4);padding-top:var(--space-4);border-top:1px solid var(--call-border)}
+.gap-note-a strong{color:var(--call-text)}
+.gap-note-when{font-size:0.9em;color:var(--text-soft)}
+
+/* The visit log */
+.log-entry{border-left:3px solid var(--gold-500);padding-left:var(--space-4);margin:var(--space-5) 0;max-width:var(--measure)}
+.log-entry .log-when{font-weight:700;color:var(--gold-700)}
+.log-entry p{margin:0.4em 0 0}
+
 /* Ask-your-AI box */
 .ask-ai{background:var(--machine-bg);border:1px solid var(--border);border-radius:var(--radius-md);padding:var(--space-5);max-width:var(--measure);margin:var(--space-6) 0}
 .ask-ai-title{font:600 var(--text-h3)/var(--lh-head) var(--font-head);margin:0 0 8px;color:var(--text-body)}

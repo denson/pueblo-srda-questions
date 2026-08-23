@@ -25,11 +25,15 @@ always paired with what happens when you call.
 
 - This site is **not SRDA's**. Every page footer carries the demo badge and
   the not-affiliated notice; never remove either.
-- What the public record does not answer is marked `[unverified]` in a
-  gap-note block, always paired with "The question we'd ask SRDA". Never
-  fill a gap by guessing, and never delete the question when adding facts —
-  replace the gap-note only when a source answers it, and record the source
-  in the appendix.
+- What the public record does not answer is an **Open question** in a
+  gap-note block, always paired with "The question we'd ask SRDA". The words
+  verified and unverified are not used on this site: everyday people's
+  questions about services are answered or still open, nothing else. Never
+  answer a question by guessing, and never delete the question when it is
+  answered: add `answered` to the box's class, change the tag to
+  `[ Answered ]`, and append a `gap-note-a` paragraph ("What we were told:")
+  with the answer, who said it by role, and the date. Log the change on
+  `/learned/` and record the source in the appendix.
 - Every empirical claim's source lives in the page's agent appendix.
 
 ## Dates are derived, never typed
