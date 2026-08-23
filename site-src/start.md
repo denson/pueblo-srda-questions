@@ -10,8 +10,8 @@ record says, who it is for, what it costs, exactly who to call, and the
 questions the record leaves open. It is a working resource compiled from public
 sources; SRDA has not reviewed it. The gold "Open question" boxes mark what
 the public record does not answer, each with the question we would put to
-SRDA. Those questions are personal ones, from the author and people
-the author knows, and for now they lean toward transportation: a person has
+SRDA. Those questions are personal ones, from the author and a group of
+friends, all eligible for SRDA's services, and for now they lean toward transportation: a person has
 to be able to get there before it matters what is there. For any service
 decision, the reliable step is a phone call:
 SRDA front desk (719) 545-8900, weekdays 8 a.m. to 5 p.m., or resource
