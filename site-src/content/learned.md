@@ -7,7 +7,13 @@ description: A dated log of what the author learns about SRDA's services, in per
 
 This page is the running log. When one of the open questions on a program page gets an answer, the answer goes onto that page in its box, dated, and a short entry lands here so anyone can see what changed and when. If you are reading this with someone from SRDA, this is the page that shows where things stand.
 
-Before 25 August 2026 the log is empty, because everything on the site so far came from the public record rather than from asking.
+<div class="log-entry" markdown="1">
+<p class="log-when">August 26, 2026, in person at SRDA</p>
+
+**[Transportation](../programs/transportation/):** rides are to medical appointments only, booked at least five business days ahead. That is narrower and slower than the published record, which had described grocery, errand, meal, and work trips at three working days' notice; the page now carries both, dated. Still open: fleet size, trips per day, and whether the wider service ended for good.
+
+**[Community meals](../programs/congregate-meals/):** you sign up; suggested donation $2, free if you cannot afford it, 60 and over; meals run about 10:30 to 12:30, and it pays to come early. And the vans do not take riders to the meal sites, which answers this site's founding question the hard way: every program assumes you can get there, and for the meals, SRDA cannot get you there.
+</div>
 
 <div class="log-entry" markdown="1">
 <p class="log-when">August 2026, before the first visit</p>
@@ -19,7 +25,7 @@ The site was compiled from srda.org, Pueblo County pages and the Federal Transit
 
 Every program page carries its own open questions in a gold box. The ones that matter most right now, all of them about getting there:
 
-- [Transportation](../programs/transportation/): how many vehicles are in service today, how many trips a day, the real booking lead time, and whether Pueblo West or rural trips need extra notice.
+- [Transportation](../programs/transportation/): fleet size and trips per day, and whether the reduction to medical-only rides is permanent.
 - [Meals on Wheels](../programs/meals-on-wheels/): how many routes a day, over what hours and mileage, how short of drivers they are, and whether mileage is reimbursed.
 - [Help at Home](../programs/help-at-home/): current rates and the waitlist, and whether grocery and errand runs are outgrowing staffing.
 - [Recreation](../programs/recreation/): whether there is a membership requirement, and whether non-drivers can reach daytime classes on the vans.
