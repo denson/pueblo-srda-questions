@@ -17,7 +17,7 @@ eyebrow: SRDA program
 
 Hot noon meals served at sites around the county, with the social hour that comes with eating together. Reported elsewhere as ten sites. Monthly menus are published on SRDA's site.
 
-In person we were told the meal service runs from about 10:30 in the morning to 12:30, you sign up to attend, and the suggested donation is $2, free if you cannot afford it, for people 60 and over. The meals are good; the author's advice from the visit is to arrive early, because the food is at its best at the start of the window.
+In person we were told the meal service runs from about 10:30 in the morning to 12:30, you need a reservation to attend, and the suggested donation is $2, free if you cannot afford it, for people 60 and over. The meals are good; the author's advice from the visit is to arrive early, because the food is at its best at the start of the window.
 
 One thing to plan for: **SRDA's vans do not take riders to the meal sites.** If you cannot drive, arrange your own ride.
 
@@ -31,13 +31,13 @@ One thing to plan for: **SRDA's vans do not take riders to the meal sites.** If 
 <p class="gap-note-tag">[ Answered ]</p>
 <p>The donation, the serving hours, and whether the vans take riders to meals.</p>
 <p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>What does a meal cost, when is it served, and can riders reach the sites on your vans?</em></p>
-<p class="gap-note-a"><strong>What we were told:</strong> You sign up; the suggested donation is $2, free if you cannot afford it, for people 60 and over; meals run from about 10:30 to 12:30, and it pays to come early; and there are no SRDA rides to the meal sites. <span class="gap-note-when">Told in person at SRDA, August 26, 2026.</span></p>
+<p class="gap-note-a"><strong>What we were told:</strong> You need a reservation; the suggested donation is $2, free if you cannot afford it, for people 60 and over; meals run from about 10:30 to 12:30, and it pays to come early; and there are no SRDA rides to the meal sites. <span class="gap-note-when">Told in person at SRDA, August 26, 2026.</span></p>
 </div>
 
 <div class="gap-note">
 <p class="gap-note-tag">[ Open question ]</p>
-<p>Still open: the current list of meal sites, each site's serving days, and the exact serving times (the 10:30 to 12:30 window above is from memory of the visit and needs confirming).</p>
-<p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>Which meal sites operate now, on which days does each serve, and what are the exact serving hours?</em></p>
+<p>Still open: the current list of meal sites, each site's serving days, the exact serving times (the 10:30 to 12:30 window above is from memory of the visit and needs confirming), and how the reservation works: how far ahead, and who to call. The author is going back and will fill these in.</p>
+<p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>Which meal sites operate now, on which days does each serve, what are the exact serving hours, and how far ahead must a meal be reserved?</em></p>
 </div>
 
 <!-- agent-only -->
