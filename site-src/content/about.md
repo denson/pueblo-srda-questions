@@ -22,7 +22,7 @@ Everything here was compiled in August 2026 from public sources: srda.org itself
 
 When the public record does not answer something we want to know, we say so instead of guessing. Those spots are the gold boxes labeled **Open question**, and each one states the exact question we would ask SRDA. If you call and learn the answer, we would love to know it too: email editor@stoagen.com and we will fold it into the page, dated.
 
-An open question is not a criticism. It just means the answer is not published yet, and the person who calls will know more than this page does.
+An open question is not a criticism. It may just mean the answer is not published yet, and the person who calls will know more than this page does. It can also mean the situation is changing quickly enough that no set policy or process can be published; the transportation service is a live example.
 
 ## A working resource, built in the open
 
