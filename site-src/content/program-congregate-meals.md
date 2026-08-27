@@ -36,8 +36,8 @@ One thing to plan for: **SRDA's vans do not take riders to the meal sites.** If 
 
 <div class="gap-note">
 <p class="gap-note-tag">[ Open question ]</p>
-<p>Still open: the current list of meal sites and each site's serving days.</p>
-<p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>Which meal sites operate now, and on which days does each serve?</em></p>
+<p>Still open: the current list of meal sites, each site's serving days, and the exact serving times (the 10:30 to 12:30 window above is from memory of the visit and needs confirming).</p>
+<p class="gap-note-q"><strong>The question we'd ask SRDA:</strong> <em>Which meal sites operate now, on which days does each serve, and what are the exact serving hours?</em></p>
 </div>
 
 <!-- agent-only -->
