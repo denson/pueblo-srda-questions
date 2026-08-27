@@ -12,6 +12,8 @@ This page is the running log. When one of the open questions on a program page g
 
 **[Transportation](../programs/transportation/):** rides are to medical appointments only, booked at least five business days ahead. That is narrower and slower than the published record, which had described grocery, errand, meal, and work trips at three working days' notice; the page now carries both, dated. Still open: fleet size, trips per day, and whether the wider service ended for good.
 
+**[Housing](../programs/housing/):** SRDA hands out a printed senior-housing list, now transcribed onto the housing page: the Housing Authority's seven subsidized buildings, the income-based buildings at one third of income, max-rent units, and unsubsidized independent living, each with a phone number. The process for the subsidized buildings, as told: waitlists are mostly closed, you watch the Housing Authority's site and social media for an opening, get on the day it opens, and expect about a year, if you are lucky.
+
 **[Community meals](../programs/congregate-meals/):** you sign up; suggested donation $2, free if you cannot afford it, 60 and over; meals run about 10:30 to 12:30, and it pays to come early. And the vans do not take riders to the meal sites, which answers this site's founding question the hard way: every program assumes you can get there, and for the meals, SRDA cannot get you there.
 </div>
 
