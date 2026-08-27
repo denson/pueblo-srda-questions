@@ -5,7 +5,7 @@ description: A dated log of what the author learns about SRDA's services, in per
 ---
 # What we've learned so far
 
-This page is the running log. When one of the open questions on a program page gets an answer, the answer goes onto that page in its box, dated, and a short entry lands here so anyone can see what changed and when. If you are reading this with someone from SRDA, this is the page that shows where things stand.
+This page is the running log. If you know an answer we have not gotten yet, email editor@stoagen.com. When one of the open questions on a program page gets an answer, the answer goes onto that page in its box, dated, and a short entry lands here so anyone can see what changed and when. If you are reading this with someone from SRDA, this is the page that shows where things stand.
 
 <div class="log-entry" markdown="1">
 <p class="log-when">August 26, 2026, in person at SRDA</p>
